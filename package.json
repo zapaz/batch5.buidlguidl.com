@@ -32,6 +32,7 @@
     "next:serve": "yarn workspace @se-2/nextjs serve",
     "postinstall": "husky install",
     "precommit": "lint-staged",
+    "fleek": "yarn workspace @se-2/nextjs fleek",
     "vercel": "yarn workspace @se-2/nextjs vercel",
     "vercel:yolo": "yarn workspace @se-2/nextjs vercel:yolo"
   },
