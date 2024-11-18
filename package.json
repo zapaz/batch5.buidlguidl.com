@@ -32,13 +32,14 @@
     "next:serve": "yarn workspace @se-2/nextjs serve",
     "postinstall": "husky install",
     "precommit": "lint-staged",
+    "fleek": "yarn workspace @se-2/nextjs fleek",
     "vercel": "yarn workspace @se-2/nextjs vercel",
     "vercel:yolo": "yarn workspace @se-2/nextjs vercel:yolo"
   },
   "packageManager": "yarn@3.2.3",
   "devDependencies": {
-    "husky": "^8.0.1",
-    "lint-staged": "^13.0.3"
+    "husky": "^8.0.3",
+    "lint-staged": "^13.3.0"
   },
   "engines": {
     "node": ">=18.17.0"
